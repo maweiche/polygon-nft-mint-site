@@ -7,9 +7,9 @@ import React, { useEffect, useState } from "react";
 import twitterLogo from "./assets/twitter-logo.svg";
 import polygonLogo from "./assets/polygonlogo.png";
 
-const tld = ".ninja";
-const TWITTER_HANDLE = "_buildspace";
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const tld = ".Crypt";
+const TWITTER_HANDLE = "DindaCrypt";
+const TWITTER_LINK = `https://twitter.com/AreYouWinningg`;
 const CONTRACT_ADDRESS = "0x90d017163c658F0a59d2e8a1c7053Ab4c61b1711";
 
 const App = () => {
