@@ -234,7 +234,7 @@ const App = () => {
 
     const renderNotConnectedContainer = () => (
         <div className="connect-wallet-container">
-            <img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" alt="Ninja donut gif" />
+            <img src="https://media.giphy.com/media/580DvWH0jDbq7J2S26/giphy-downsized-large.gif" alt="Crypt Domain" />
             {/* Call the connectWallet function we just wrote when the button is clicked */}
             <button onClick={connectWallet} className="cta-button connect-wallet-button">
                 Connect Wallet
@@ -302,7 +302,7 @@ const App = () => {
                     <p className="tld"> {tld} </p>
                 </div>
 
-                <input type="text" value={record} placeholder="whats ur ninja power?" onChange={(e) => setRecord(e.target.value)} />
+                <input type="text" value={record} placeholder="Choose Your Domain" onChange={(e) => setRecord(e.target.value)} />
                 {/* If the editing variable is true, return the "Set record" and "Cancel" button */}
                 {editing ? (
                     <div className="button-container">
@@ -346,8 +346,8 @@ const App = () => {
                 <div className="header-container">
                     <header>
                         <div className="left">
-                            <p className="title">🐱‍👤 Ninja Name Service</p>
-                            <p className="subtitle">Your immortal API on the blockchain!</p>
+                            <p className="title">Crypt Name Service</p>
+                            <p className="subtitle">Testnet Development</p>
                         </div>
                         {/* Display a logo and wallet connection status*/}
                         <div className="right">
