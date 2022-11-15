@@ -1,10 +1,3 @@
-#buildspace Polygon NFT Drop Site
-## buildspace Polygon ENS Mint (Front-End)
-
-![image](/public/livesite.png)
-
-## Welcome 👋
-This is the front-end for a Polygon ENS NFT mint site. You can see the full project, including how to create and edit the smart contract, on [buildspace](https://buildspace.so/polygon).
 
 ## How to get things working
 To mint your own ENS style domain name on Polygon, change the following:
